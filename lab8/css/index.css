@@ -39,7 +39,7 @@ h3 {
 
 #picture {
     float: right;
-    width: 400px;
+    width: auto;
     height: auto;
     border: solid 7px;
     border-color: #0ef8f8;
