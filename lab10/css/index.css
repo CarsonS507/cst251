@@ -1,0 +1,67 @@
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif ;
+    background-color: black;
+    padding: 25px;
+    font-size: 120%;
+    font-kerning: auto ;
+}
+
+div#content {
+    padding: 50px;
+    background-color: darkgray;
+    border:dashed 20px #0ef8f8;
+    height: 80vh;
+}
+
+h1{
+  font-family:"Comic Sans MS", cursive, sans-serif ;
+  color: teal ;
+  font-style: bold ;
+  font-size: 60px ;
+  font-kerning: auto ;
+}
+h2 {
+  font-family:"Comic Sans MS", cursive, sans-serif ;
+  color: white ;
+  font-style: italic ;
+  font-kerning: auto ;
+
+}
+h3 {
+    font-family: "Comic Sans MS", cursive, sans-serif ;
+    color: orange ;
+    font-style: bold ;
+    font-size: 45px ;
+    font-kerning: auto ;
+
+  }
+
+  p{
+    text-decoration: none;
+    color: #0ef8f8 ;
+    font-kerning: auto ;
+  }
+
+}
+
+#picture {
+    float: right;
+    width: auto;
+    height: auto;
+    border: solid 7px;
+    border-color: #0ef8f8;
+}
+
+a {
+    text-decoration: none;
+    color: #0ef8f8;
+}
+.thumbnail:hover {
+  position:relative;
+  top:-25px;
+  left:-35px;
+  width:500px;
+  height:auto;
+  display:block;
+  z-index:999;
+}
