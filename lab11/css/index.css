@@ -1,0 +1,93 @@
+.sidebar {
+  position: -webkit-sticky;
+  position: right;
+  position: sticky;
+  top: 0;
+  border: 3px solid black;
+  padding: 15px;
+  background-color: #fff;
+}
+
+.wrapper {
+  display: flex;
+  justify-content:
+  space-between;
+}
+
+.main,
+.sidebar {
+    border: 3px solid #0ef8f8;
+    padding: 15px;
+    background-color: darkgrey;
+}
+
+ .main {
+  width: 60%;
+  height: 150vh;
+}
+
+ .sidebar {
+    width: 25%;
+    height: 25vh;
+    float: right;
+ }
+
+   body {
+     background-color: black;
+     font-family: "Lucida Console", Monaco, monospace;
+     padding: 10px;
+  }
+
+   img {
+     float: left;
+     max-width: 400px;
+     height: 200px;
+     border: solid 10px #333333;
+     position:sticky;
+  }
+
+   .thumbnail:hover {
+     position:sticky;
+     top:-25px;
+     left:-35px;
+     width:500px;
+     height:auto;
+     display:block;
+     z-index:999;
+}
+
+div#content {
+    padding: 50px;
+    background-color: black;
+    border:dashed 20px #0ef8f8;
+    height: 80vh;
+}
+
+h1{
+  font-family:"Lucida Console", Monaco, monospace;
+  color: white ;
+  font-style: bold ;
+  font-size: 60px ;
+  font-kerning: auto ;
+}
+h2 {
+  font-family:"Lucida Console", Monaco, monospace;
+  color: #0ef8f8 ;
+  font-style: italic ;
+  font-kerning: auto ;
+
+}
+h3 {
+    font-family: "Lucida Console", Monaco, monospace;
+    color: orange ;
+    font-style: bold ;
+    font-size: 45px ;
+    font-kerning: auto ;
+
+  }
+
+  p{
+    text-decoration: none;
+    color: black ;
+    font-kerning: auto ;
+  }
