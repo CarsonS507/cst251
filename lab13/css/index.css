@@ -1,0 +1,29 @@
+div#content{
+  padding: 50px;
+  background-color: darkgrey;
+  border:dashed 20px #0ef8f8;
+  font-family: "Lucida Console", Monaco, monospace ;
+  width: 60%;
+  display: inline-block;
+
+}
+
+body{
+  background-color: black
+}
+
+nav{
+  position: sticky;
+  top:0;
+  background-color: black;
+  font-family: "Lucida Console", Monaco, monospace ;
+  color:#0ef8f8;
+  border: solid 7px white;
+}
+
+iframe#fake{
+    width: 800px;
+    height: 500px;
+    resize: both;
+    overflow: hidden;
+}
