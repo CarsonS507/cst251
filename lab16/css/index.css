@@ -1,0 +1,124 @@
+
+div#content{
+  padding: 100px;
+  background-color: darkgrey;
+  border: solid 7px white;
+  border-radius: 25px;
+  font-family: "Lucida Console", Monaco, monospace ;
+  width: 60%;
+  text-shadow: 0 0 5px #0ef8f8;
+  box-shadow: 5px 5px 5px 5px #0ef8f8;
+  position: 300px;
+}
+div#floated{
+    float: right;
+    clear: right;
+    box-shadow: 5px 5px 5px 5px #0ef8f8;
+    column-count: 3;
+    border-radius: 25px;
+    border: solid 7px white;
+    padding: 10px;
+    background-color: darkgrey;
+    text-shadow: 0 0 5px #0ef8f8;
+    display: inline-block;
+}
+
+div#center-horz{
+  text-align: center;
+  border: 7px solid white;
+  border-radius: 25px;
+  text-shadow: 0 0 5px #0ef8f8;
+  box-shadow: 5px 5px 5px 5px #0ef8f8;
+  display: inline-block;
+}
+
+img{
+  float: left;
+  max-width: 400px;
+  border: solid 10px black;
+  position: sticky;
+  filter: grayscale(50%);
+  border-radius: 0 25px;
+  border: 2px solid white;
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  display: inline-block;
+  float: right;
+}
+
+.thumbnail:hover{
+  position: sticky;
+  top:-25px;
+  left:-35px;
+  width:500px;
+  height: auto;
+  display: block;
+  z-index: 999;
+  transition: width 3s, height 4s;
+}
+
+div#sidebar{
+  border: solid 3px black;
+  border-radius: 25px;
+  background-color: #0ef8f8;
+  font-family: "Lucida Console", Monaco, monospace ;
+  width: 25%;
+  min-width: 300px;
+  text-shadow: 0 0 5px white;
+  box-shadow: 5px 5px 5px 5px white;
+
+
+}
+
+body{
+  background-image: url(https://i.gifer.com/SQie.gif);
+  background-repeat: repeat;
+  background-size: cover;
+
+}
+
+nav{
+  position: sticky;
+  top:0;
+  background-color: black;
+  font-family: "Lucida Console", Monaco, monospace ;
+  color:#0ef8f8;
+  border: solid 7px white;
+  border-radius: 25px;
+}
+
+.element {
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+    background-color: blue;
+    animation-name: stretch;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    opacity: 0.2; }
+
+    @keyframes stretch {
+         0% {
+          transform: scale(.3);
+          background-color: #0ef8f8;
+          border-radius: 100%;
+          opacity: 0.4;
+      }
+
+      50% {
+         background-color: white;
+         opacity: 0.4;
+  }
+
+  100% {
+    transform: scale(1.5);
+    background-color: orange;
+    opacity: 0.4;
+  }
+}
