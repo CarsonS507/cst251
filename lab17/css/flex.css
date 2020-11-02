@@ -1,0 +1,54 @@
+body{
+    background-image: url(https://i.gifer.com/SQie.gif);
+    background-repeat: repeat;
+    background-size: cover;
+}
+header{
+    background-color: black;
+    color: white;
+    font-family: "Lucida Console", Monaco, monospace ;
+    text-shadow: 0 0 5px #0ef8f8;
+    border-radius: 25px;
+    border: solid 7px white;
+    box-shadow: 5px 5px 5px 5px #0ef8f8;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    font-family: "Lucida Console", Monaco, monospace ;
+    border-radius: 25px;
+    border: solid 7px white;
+    box-shadow: 5px 5px 5px 5px #0ef8f8;
+}
+
+main{
+    padding: 100px;
+    background-color: darkgrey;
+    border: solid 7px #0ef8f8;
+    border-radius: 25px;
+    font-family: "Lucida Console", Monaco, monospace ;
+    width: 60%;
+    text-shadow: 0 0 5px black;
+    box-shadow: 5px 5px 5px 5px #0ef8f8;
+}
+
+section{
+    border: solid 7px black;
+    border-radius: 25px;
+    padding: 3px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-family: "Lucida Console", Monaco, monospace ;
+    text-shadow: 0 0 5px #0ef8f8;
+    border-radius: 25px;
+    border: solid 7px white;
+    box-shadow: 5px 5px 5px 5px #0ef8f8;
+}
+
+.flex{
+    display: flex;
+}
