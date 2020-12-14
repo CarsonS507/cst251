@@ -16,10 +16,6 @@ img{
   box-shadow: 2px 2px 2px 2px #84dcc6;
 }
 
-img:hover{
-  width:325px;
-}
-
 body{
     background-color: #222222;
 }
